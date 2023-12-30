@@ -2,7 +2,7 @@
 #define SinglyLinkedList_h
 #include "iostream"
 using namespace std;
-//template <class t>
+
 
 class SinglyLL
 {
