@@ -1,11 +1,3 @@
-/*
-*
-*	CST-201, Maze Solver Project
-*	Provided starter code
-*	MazeCell class
-*	DO NOT CHANGE THIS FILE
-*
-*/
 
 #ifndef MAZECELL_H
 #define MAZECELL_H
