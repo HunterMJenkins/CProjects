@@ -1,3 +1,3 @@
-# CPlusPlusProjects
+# CProjects
 
-#Random C++ Projects done
+#Random C++ and C Projects done
