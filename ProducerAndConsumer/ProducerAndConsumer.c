@@ -3,7 +3,7 @@
 #include <unistd.h>
 #define BUFFER_SIZE 10
 
-//Hunter Jenkins
+//Hunter Jenkins and Jack Utzerath
 //Producer and Consumer
 
 
