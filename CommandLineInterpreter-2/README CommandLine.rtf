@@ -1,0 +1,72 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2709
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica-Bold;\f1\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\b\fs24 \cf0 Linux Command Line Interpreter\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f1\b0 \cf0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\b \cf0 Overview
+\f1\b0 \
+	This Linux Command Line Interpreter, developed by Hunter Jenkins and Jack Utzerath, is a custom shell implementation that allows users to execute commands interactively or by supplying a batch file with commands. The interpreter is capable of handling most Unix commands, including directory navigation with `cd` and supports command chaining with semicolons (`;`).\
+\
+
+\f0\b Features
+\f1\b0 \
+
+\f0\b - Interactive Mode:
+\f1\b0  Enter commands directly into the shell prompt, `hunter+jackshell> `, and see immediate results.\
+
+\f0\b - Batch Mode:
+\f1\b0  Execute a series of commands specified in a text file, allowing for automated scripts and batch processing.\
+
+\f0\b - Command Chaining
+\f1\b0 : Input multiple commands in a single line, separated by semicolons, for efficient execution.\
+\
+
+\f0\b Installation
+\f1\b0 \
+1. Download the source code to your local machine (Must be Unix/Linux)\
+2. Ensure you have a C++ compiler installed (e.g., `g++` or `clang++`).\
+3. Navigate to the directory containing the source code.\
+\
+
+\f0\b Compilation
+\f1\b0 \
+	To compile the interpreter, use the following command in the terminal:\
+\
+		g++ CommandLine.cpp -o CommandLineProgram\
+\
+This command creates an executable named `CommandLinePrograml`\
+\
+
+\f0\b Usage
+\f1\b0 \
+	Interactive Mode\
+		To enter interactive mode\
+\
+			./CommandLineProgram\
+\
+		Type in any one of the listed commands or combine them with a \'93;\'94 and no space between commands\
+	Batch Mode\
+		To run the interpreter in batch mode, supply the path to a text file containing your commands as an argument:\
+			./CommandLineProgram batchfile.txt\
+\
+		Ensure each command in the batch file is on a new line.\
+\
+
+\f0\b Exiting the Shell
+\f1\b0 \
+Type `quit` at the prompt in interactive mode or include it as a command in your batch file to exit the interpreter.\
+\
+
+\f0\b Authors
+\f1\b0 \
+- Hunter Jenkins\
+- Jack Utzerath\
+}
